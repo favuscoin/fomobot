@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>MOVEAIDAO</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="header-main">
+            <div class="brand-main">
+            <a href="#"><img src="images/brand.svg" alt=""></a>
+        </div>
+            <div class="header-main-list">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#gmoveai">gmoveai</a></li>
+            </ul>
+            <a href="https://docs.moveaidao.com" class="main-btn bg-yellow">
+                White Paper
+            </a>
+        </div>
+            <a href="#" class="hamburger">
+                <img src="images/menu-icon.svg" alt="">
+            </a>
+        </div>
+    </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-inner">
+                <div class="hero-left">
+                    <h1>move ai dao</h1>
+                    <p>Accelerating the Move AI Ecosystem</p>
+                    <ol>
+                        <li><a href="https://docs.moveaidao.com" class="main-btn bg-yellow">White Paper</a></li>
+                        <li><a href="https://docs.moveaidao.com/trust-framework" class="main-btn purple-btn">PLATFORM</a></li>
+                    </ol>
+                </div>
+                <div class="hero-right">
+                    <img src="images/hero-main.svg" alt="">
+                </div>
+                <div class="mbl-charchter">
+                    <img src="images/mbl-charchter.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <img src="images/mbl-shape.svg" alt="" class="mbl-shape">
+    </section>
+    <section id="product" class="boxes-sec">
+        <div class="boxes-container">
+            <div class="boxes-main">
+                <div class="boxes">
+                    <small>He</small>
+                    <h2>Protect</h2>
+                    <img src="images/icon1.svg" alt="" class="icon-main">
+                    <p>Trust Layer & Security Framework for all agents. Protect your agent-powered applications with real-time threat detection.</p>
+                </div>
+                <div class="boxes">
+                    <small>He</small>
+                    <h2>buidl</h2>
+                    <img src="images/icon2.svg" alt="" class="icon-main">
+                    <p>Move AI Agent Kit— Connect any AI Agent to Move-based protocols and beyond, allowing them to move things on-chain.</p>
+                </div>
+                <div class="boxes">
+                    <small>But most importantly he</small>
+                    <h2>Moves</h2>
+                    <img src="images/icon3.svg" alt="" class="icon-main">
+                    <p>Move things on-chain with ease using Move Terminal – the all-in-one, voice-enabled platform for agents, memes, tokens, and anything blockchain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gmoveai" class="contact-info">
+        <div class="contact-main">
+            <div class="contact-inner">
+                <div>
+                <h3>contact us</h3>
+                <p>write on <a href="#">gm@moveaidao.com</a></p>
+            </div>
+            <a href="https://x.com/moveaidao" class="main-btn bg-purple">Join the MoveAI community!</a>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-inner">
+            <p>Copyright © 2025 MoveAI DAO. All rights reserved.</p>
+            <ul>
+                <li><a href="https://x.com/moveaidao"><img src="images/twitter.svg" alt=""></a></li>
+               <!-- <li><a href="https://x.com/moveaidao"><img src="images/telegram.svg" alt=""></a></li> --> 
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector(".header-main-list");
+
+hamburger.addEventListener("click", (e) => {
+    e.preventDefault();
+    menu.classList.toggle("active");
+});
+
+    </script>
+    
+</body>
+
+</html>
