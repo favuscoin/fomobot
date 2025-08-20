@@ -17,7 +17,7 @@
         font-size: 120px;
     }
      .hero-right img{
-        height: 777px;
+        height: 700px;
     }
 }
 @media(max-width: 1199px){
@@ -44,7 +44,7 @@
         font-size: 28px;
     }
       .hero-right img{
-        height: 777px;
+        height: 666px;
     }
 }
 @media(max-width: 991px){
@@ -188,6 +188,7 @@
     }
 
 }
+
 
 
 
