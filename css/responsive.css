@@ -1,13 +1,13 @@
 @media(max-width: 1440px){
     .hero-container,
-    .boxes-container, .contact-main{
+    .boxes-container, .contact-main, .hero-right{
         max-width: 1240px;
         margin: 0 auto;
         width: 100%;
     }
 }
 @media(max-width: 1366px){
-    .hero-container, .boxes-container, .contact-main, .header-inner {
+    .hero-container, .boxes-container, .contact-main, .header-inner, .hero-right {
         max-width: 100%;
     }
     .hero h1{
@@ -18,7 +18,7 @@
     .hero h1 {
         font-size: 110px;
     }
-    .hero-container, .boxes-container, .contact-main, .header-inner {
+    .hero-container, .boxes-container, .contact-main, .header-inner, .hero-right {
         max-width: 900px;
     }
     .boxes{
@@ -179,4 +179,5 @@
     }
 
 }
+
 
