@@ -80,7 +80,7 @@
         gap: 18px;
     }
     .hero-right img{
-        height: 550px;
+        height: 767px;
     }
     .brand-main{
         width: auto;
@@ -177,4 +177,5 @@
         right: 0;
         height: 140px;
     }
+
 }
