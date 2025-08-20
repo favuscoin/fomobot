@@ -1,24 +1,30 @@
 @media(max-width: 1440px){
     .hero-container,
-    .boxes-container, .contact-main, .hero-right{
+    .boxes-container, .contact-main {
         max-width: 1240px;
         margin: 0 auto;
         width: 100%;
     }
+      .hero-right img{
+        height: 777px;
+    }
 }
 @media(max-width: 1366px){
-    .hero-container, .boxes-container, .contact-main, .header-inner, .hero-right {
+    .hero-container, .boxes-container, .contact-main, .header-inner {
         max-width: 100%;
     }
     .hero h1{
         font-size: 120px;
+    }
+     .hero-right img{
+        height: 777px;
     }
 }
 @media(max-width: 1199px){
     .hero h1 {
         font-size: 110px;
     }
-    .hero-container, .boxes-container, .contact-main, .header-inner, .hero-right {
+    .hero-container, .boxes-container, .contact-main, .header-inner {
         max-width: 900px;
     }
     .boxes{
@@ -36,6 +42,9 @@
     }
     .contact-inner p {
         font-size: 28px;
+    }
+      .hero-right img{
+        height: 777px;
     }
 }
 @media(max-width: 991px){
@@ -179,5 +188,6 @@
     }
 
 }
+
 
 
